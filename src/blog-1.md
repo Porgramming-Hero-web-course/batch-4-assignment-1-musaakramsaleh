@@ -15,13 +15,12 @@ function printId(id: number | string) {
         console.log("Id is a number");
     }
 }
-
-## 2. Intersection Types
-
+2. Intersection Types
 Intersection types combine multiple type definitions into one, using the & symbol. A variable of this type must satisfy all combined types. This feature ensures type composition by merging multiple type definitions, requiring the variable to meet all specified conditions. Intersection types are particularly useful for modeling complex objects, as they create composite types that inherit properties from multiple interfaces or types. They also promote code reusability by allowing developers to compose complex types without rewriting multiple type definitions.
 
-### Example:
-```typescript
+Example:
+typescript
+Copy code
 interface Person {
     name: string;
     age: number;
@@ -40,3 +39,4 @@ const john: Member = {
     employeeId: 25,
     position: "Software Engineer"
 };
+In the example above, Member is an intersection type of Person and Employee. The object john must satisfy all properties from both interfaces.
