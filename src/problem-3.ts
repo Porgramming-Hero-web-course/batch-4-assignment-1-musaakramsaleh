@@ -7,5 +7,6 @@
         console.log(result)
      return count.length
     }
-    console.log(countWordOccurences('Typescript is great. I love typescript!','typescript'))
+    const w: number = countWordOccurences('I love typescript','typescript')
+    console.log(w)
 }
