@@ -1,7 +1,7 @@
 <h1>The significance of union and intersection types in Typescript.</h1>
 <h3>In typescript Union and Intersection types are unique and powerful features that allows developer to create flexible and type safe code.</h3>
  <h3>1. Union Types</h3>
- <p> It allows a value to be of different types increasing the efficiency and also helping in implementing different types of functionality. It is defined by <strong>|</strong>pipe symbol. It ensures type flexibility through enabling a variable to be declared in different types at the same time and although it will take different inputs type safety will be ensured.Then it does not compromise type safety rather typescript enforces that the only specified type in the union is allowed. It increases code readability  as developers can clearly indicate a variable can be of multiple types improving the efficiency and readiability of code.</p>
+ <p> It allows a value to be of different types increasing the efficiency and also helping in implementing different types of functionality. It is defined by <strong>|</strong> pipe symbol. It ensures type flexibility through enabling a variable to be declared in different types at the same time and although it will take different inputs type safety will be ensured.Then it does not compromise type safety rather typescript enforces that the only specified type in the union is allowed. It increases code readability  as developers can clearly indicate a variable can be of multiple types improving the efficiency and readiability of code.</p>
 
 ### Example:
 ```typescript
